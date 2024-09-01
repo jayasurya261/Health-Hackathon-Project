@@ -1,0 +1,73 @@
+ body{
+  background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+  background-size: cover;
+} 
+ 
+
+.signup-login-container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    align-items: center;
+    justify-content: center;
+    margin-top: 190px;
+    box-shadow: 6px 6px 12px #0cffd2ae, -6px -6px 12px #e88686;
+    
+  }
+
+  .signup-login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-login-form h2 {
+    text-align: center;
+  }
+  
+  .signup-login-form label {
+    margin-bottom: 10px;
+  }
+  
+  .signup-login-form input,
+  .signup-login-form select {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .signup-login-form button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+
+  .signup-login-container button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .signup-login-container button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+ 

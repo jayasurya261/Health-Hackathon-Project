@@ -1,0 +1,189 @@
+/* PatientDashboard.css */
+
+.patient-dashboard {
+  font-family: 'Gupter', sans-serif;
+  background-color: #f9f9f9;
+ padding-bottom: 150px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.patient-dashboard-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #007BFF;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  gap: 10px; 
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.nav-button.active,
+.nav-button:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.appointment-section,
+.cancel-section,
+.emergency-section,
+.bookings-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.submit-button,
+.export-button,
+.back-to-login-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-button:hover,
+.export-button:hover,
+.back-to-login-button:hover {
+  background-color: #218838;
+}
+
+.loading-message,
+.error-message,
+.success-message,
+.conflict-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.loading-message {
+  background-color: #007bff;
+}
+
+.error-message {
+  background-color: #dc3545;
+}
+
+.success-message {
+  background-color: #28a745;
+}
+
+.conflict-message {
+  background-color: #ffc107;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #333;
+}
+
+
+.patient-dashboard.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: #fff;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -20px;
+}
+.patient-dashboard .back-to-login-buttonp{
+  background-color: #fff; 
+  color: #007bff; 
+  border: 1px solid #007bff; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.001s, color 0.9s;
+
+}
+.patient-dashboard .back-to-login-buttonp:hover{
+  background-color: #d2ddfffc;
+}
+
+.cancel-section{
+  padding-bottom: 400px;
+}
+.emergency-section{
+  padding-bottom: 400px;
+}
+.emergency-button{
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(255, 56, 86);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.emergency-button:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+.emergency-button:active {
+  background-color: rgb(255, 56, 86);
+  /*50, 168, 80*/
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+
+.patient-dashboard-nav .logo {
+  height: 40px; /* Adjust as needed */
+  max-width: 100px; /* Adjust as needed */
+  object-fit: contain; /* Ensures the logo keeps its aspect ratio */
+  size-adjust:initial;
+  
+}

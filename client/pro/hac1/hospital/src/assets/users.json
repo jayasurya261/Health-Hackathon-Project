@@ -1,0 +1,12 @@
+{
+    "patients": [
+      { "username": "john_doe", "password": "123456" },
+      { "username": "jane_smith", "password": "password" }
+    ],
+    "doctors": [
+      { "username": "dr_smith", "password": "doctor123","name":"Dr.Smith" },
+      { "username": "dr_jones", "password": "passw0rd" ,"name":"Dr.Jones"}
+    ]
+  }
+  
+  
