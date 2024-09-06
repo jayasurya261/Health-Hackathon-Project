@@ -1,0 +1,7 @@
+{
+    "appointments": [
+      { "patientUsername": "john_doe", "doctorUsername": "dr_smith", "time": "2024-08-15T10:00:00", "status": "confirmed" },
+      { "patientUsername": "new_patient", "doctorUsername": "dr_smith", "time": "2024-08-15T10:00:00", "status": "pending" }
+    ]
+  }
+  
